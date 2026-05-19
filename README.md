@@ -39,6 +39,7 @@ Bước 2: Cấu hình chuỗi kết nối SQL Server (Connection String) vào f
 Bước 3: Mở Package Manager Console và chạy các lệnh Migration (nếu có sử dụng Entity Framework Core) để tạo database:
    > Add-Migration Initial
    > Update-Database
+ 
 Bước 4: Nhấn F5 hoặc sử dụng lệnh `dotnet run` để khởi chạy ứng dụng web.
 
 Bước 5: Truy cập địa chỉ http://localhost:<port> trên trình duyệt để sử dụng.
